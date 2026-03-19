@@ -1,0 +1,48 @@
+// data.js
+export const products = [
+  {
+    id: 1,
+    name: "Cheese Burger",
+    category: "BURGER",
+    price: 28,
+    rating: 4.9,
+    image: require("./Thuchanh/Rectangle 35.png"),
+    description: "Delicious cheese burger with fresh ingredients",
+  },
+  {
+    id: 2,
+    name: "Chicken Burger",
+    category: "BURGER",
+    price: 25,
+    rating: 4.8,
+    image: require("./Thuchanh/Rectangle 35.png"),
+    description: "Tasty chicken burger with crispy chicken",
+  },
+  {
+    id: 3,
+    name: "Pepperoni Pizza",
+    category: "PIZZA",
+    price: 35,
+    rating: 4.7,
+    image: require("./Thuchanh/Rectangle 35.png"),
+    description: "Hot pepperoni pizza with cheese",
+  },
+  {
+    id: 4,
+    name: "Orange Juice",
+    category: "DRINK",
+    price: 12,
+    rating: 4.6,
+    image: require("./Thuchanh/Rectangle 35.png"),
+    description: "Fresh orange juice",
+  },
+  {
+    id: 5,
+    name: "Fried Rice",
+    category: "RICI",
+    price: 20,
+    rating: 4.5,
+    image: require("./Thuchanh/Rectangle 35.png"),
+    description: "Tasty fried rice with vegetables",
+  },
+];
